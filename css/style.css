@@ -6120,3 +6120,21 @@
 			max-width: 70%;
 		}
 	}
+	/* Custom Mail Button Styling */
+.mail-btn {
+    background-color: #1c1c1c; /* Solid Black */
+    color: #ffffff;
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.mail-btn:hover {
+    background-color: #fcb80b; /* Heritage Gold on hover */
+    color: #1c1c1c; /* Text turns dark for contrast */
+    text-decoration: none;
+}
